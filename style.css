@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navlink1,.navlink2,.navlink3,.navlink4{
+    transition: .1s ease-in-out;
+}
+
+.navlink1:hover{
+    border-bottom: solid #00c11b 5px;
+}
+
+.navlink2:hover{ 
+    border-bottom: solid #7dd9f9 5px;
+}
+
+.navlink3:hover{
+    border-bottom: solid orange 5px;
+}
+
+.navlink4:hover{
+    border-bottom: solid orangered 5px;
+}
+
+.aboutText{
+    font-size:6rem;
+    color: black;
+ }
+
+#skills .row .p-4{
+    background-image: url("/Images/2bg4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#about .photo-div .photo-outer{
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 20%;
+    background-image: url("/Images/frank2.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#about h1 nobr{
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: #00c11b;
+}
+
+#skills h1{
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: #7dd9f9;
+}
+
+#projects h1{
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: orange;
+}
+
+#contact h1{
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: orangered;
+}
